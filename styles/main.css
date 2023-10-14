@@ -131,6 +131,38 @@ footer {
 }
 
 /* ID Selectors */
+#gridly {
+    display: block;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+}
+#sortBy {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+#temples {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+}
+article {
+    border: 5px solid #ccc;
+    padding: 15px; 
+    text-align: center;
+    max-width: none;
+    width: 350px; 
+    height: auto; 
+    background-color: whitesmoke;
+}
+  
+article img {
+    max-width: 100%;
+    height: auto;
+}
+  
+
 
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
