@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles/project.css">
+</head>
+<body>
+    <style>
+        body{
+            background-color: whitesmoke;
+            background-image: url("images/backgroundweatherproject2 (1).png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <h1>Weather App</h1>
+    <div id="inputspace">
+        <input type="text" id="locationInput" placeholder="Enter City">
+    </div>
+    
+    <div>
+        <button id="searchButton">Search</button>
+        <button id="resetButton">Reset</button>
+    </div>
+    
+    <div id="weatherInfo" style="display: none;"></div>
+    <footer>
+    &copy;<span id="year"></span> | Week 07 - Weather Project | CSE 121b
+    </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    
+    <script type="module" src="project.js"></script>
+</body>
+</html>
