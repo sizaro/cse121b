@@ -46,7 +46,8 @@ button {
 }
 #weatherInfo img {
     width: 400px;
-    height: 300px;
+    height: 270px;
+    position: relative;
     justify-content: center;
     text-align: center;
 }
